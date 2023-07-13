@@ -6,13 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="neleduapp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/EST"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="ESTUDIANTE"
+        app:layout_constraintEnd_toEndOf="@+id/PROFE"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="@+id/PROFE"
+        tools:layout_editor_absoluteY="396dp" />
 
+    <Button
+        android:id="@+id/PROFE"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="PROFESOR"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="328dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
