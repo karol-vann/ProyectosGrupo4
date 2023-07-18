@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pantallaamarillo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ffff00"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:text="feliz"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/pantallaazul"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#0000ff"
+        android:text="dia de la"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <TextView
+        android:id="@+id/pantallaroja"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#ff0000"
+        android:text="independenia"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
