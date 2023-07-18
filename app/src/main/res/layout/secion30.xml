@@ -2,12 +2,16 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
     <TextView
         android:id="@+id/textoEnPantalla"
-        android:layout_width="100dp"
-      android:layout_height="100dp"
-        android:background="#00ff00"
-        />
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFF00	"
+        android:text="Hola Grupo4"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textColor="#0000ff"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
