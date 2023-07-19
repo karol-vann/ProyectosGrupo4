@@ -3,20 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <TextView
         android:id="@+id/TextLabel1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FFFF00"
         android:text="Amarillo"
-        anroid android:textAlignment="center"
-        android android:textColor="#000000"/>
-
+        android:textAlignment="center"
+        android:textColor="#000000"
+        tools:ignore="MissingConstraints" />
     <TextView
         android:id="@+id/TextLabel2"
-        android
-        anroid
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#0000FF"
@@ -24,12 +21,9 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="27dp" />
-
+        tools:layout_editor_absoluteY="27dp"/>
     <TextView
         android:id="@+id/TextLabel3"
-        android
-        anroid
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#FF0000"
@@ -37,6 +31,6 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="53dp" />
-
+        tools:layout_editor_absoluteY="53dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
