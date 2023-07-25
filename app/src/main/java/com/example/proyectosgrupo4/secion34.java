@@ -3,6 +3,7 @@ package com.example.proyectosgrupo4;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class secion34 extends AppCompatActivity {
 
@@ -21,10 +22,10 @@ public class secion34 extends AppCompatActivity {
         TextView tvEstudiante=findViewById(R.id.tvestudiante);
         TextView tvNombre=findViewById(R.id.tvNombre);
 
-        tvEdad.setText(edad);
-        tvatura.setText(altura);
-        tvEstudiante.setText(esEstudiante);
-        tvNombre.setText(nombre);
+        tvEdad.setText("Edad:"+String.valueOf(edad));
+        tvatura.setText("Altura:"+String.valueOf(altura));
+        tvEstudiante.setText("Estudiante:"+String.valueOf(esEstudiante));
+        tvNombre.setText("Nombre:"+nombre);
 
 
     }
