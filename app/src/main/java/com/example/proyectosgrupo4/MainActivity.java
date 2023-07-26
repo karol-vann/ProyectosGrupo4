@@ -13,10 +13,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.sesion32);
-        TextView textView = findViewById(R.id.textAnimation);
-        Animation animation = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade_out);
-        View myView = findViewById(R.id.textAnimation);
-        myView.startAnimation(animation);
+        setContentView(R.layout.sesion33);
+
     }
 }
