@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.util.Log;
 import android.widget.Toast;
@@ -44,9 +45,16 @@ public class sesion_34 extends AppCompatActivity {
     }
 
 
-    public void sumar(View view){
-        Log.e("error","se genero un error");
+    public void EventoClick(View view){
+
         Toast.makeText(sesion_34.this,"texto de prueba", Toast.LENGTH_SHORT).show(); //mensaje al usuario
+    }
+
+    public void sumar(View view){
+
+        EditText caja1=findViewById(R.id.texbox1);
+        EditText caja2=findViewById(R.id.texbox2);
+        Toast.makeText(sesion_34.this,"El resultado es: "+ caja1.getText() + caja2.getText(), Toast.LENGTH_SHORT).show(); //mensaje al usuario
 
     }
 }
